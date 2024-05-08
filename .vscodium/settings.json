@@ -1,0 +1,417 @@
+{
+    "workbench.sideBar.location": "right",
+    "workbench.productIconTheme": "fluent-icons",
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact",
+        "typescript": "typescriptreact"
+    },
+    "files.autoSave": "afterDelay",
+    "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+    "prettier.bracketSameLine": true,
+    "editor.lineNumbers": "relative",
+    "editor.fontFamily": "Cascadia Code,Consolas, Courier New, monospace",
+    "redhat.telemetry.enabled": false,
+    "editor.guides.bracketPairs": true,
+    "editor.guides.bracketPairsHorizontal": false,
+    "code-runner.runInTerminal": true,
+    "explorer.confirmDelete": false,
+    "editor.fontLigatures": true,
+    "editor.minimap.autohide": true,
+    "[javascript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "[javascriptreact]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "[dart]": {
+        "editor.formatOnSave": true,
+        "editor.formatOnType": true,
+        "editor.rulers": [],
+        "editor.selectionHighlight": false,
+        "editor.suggestSelection": "first",
+        "editor.tabCompletion": "onlySnippets",
+        "editor.wordBasedSuggestions": "off"
+    },
+    "liveServer.settings.CustomBrowser": "firefox",
+    "dart.previewHotReloadOnSaveWatcher": true,
+    "dart.hotReloadOnSave": "manual",
+    "dart.previewFlutterUiGuidesCustomTracking": true,
+    "dart.previewFlutterUiGuides": true,
+    "org.addLeftZero": true,
+    "org.todoKeywords": [
+        "TODO",
+        "DONE"
+    ],
+    "editor.mouseWheelZoom": true,
+    "terminal.integrated.fontSize": 18,
+    "glassit.alpha": 255,
+    "todo-tree.general.tags": [
+        "BUG",
+        "HACK",
+        "FIXME",
+        "TODO",
+        "XXX",
+        "[ ]",
+        "[x]",
+        "REF",
+        "WARN",
+        "README",
+        "ERROR",
+        "NOTE",
+        "DONE",
+        "PROGS"
+    ],
+    "todo-tree.tree.autoRefresh": true,
+    "todo-tree.highlights.customHighlight": {
+        "BUG": {
+            "icon": "bug",
+            "type": "text-and-comment",
+            "background": "#F5A97F",
+            "foreground": "#000000"
+        },
+        "HACK": {
+            "icon": "tools",
+            "background": "#cc66ff",
+            "foreground": "#000000",
+            "type": "text-and-comment"
+        },
+        "FIXME": {
+            "icon": "beaker",
+            "type": "text-and-comment",
+            "background": "#ff66ff",
+            "foreground": "#000000"
+        },
+        "XXX": {
+            "icon": "$(close)"
+        },
+        "TODO": {
+            "icon": "check",
+            "iconColour": "#6666ff",
+            "type": "text-and-comment",
+            "getterIcon": true,
+            "background": "#6666ff",
+            "foreground": "#000000"
+        },
+        "README": {
+            "foreground": "#000000",
+            "background": "#50fa7b",
+            "iconColour": "#50fa7b",
+            "icon": "eye",
+            "type": "text-and-comment"
+        },
+        "ERROR": {
+            "background": "#ff6e67",
+            "foreground": "#000000",
+            "type": "text-and-comment",
+            "iconColour": "red",
+            "icon": "flame"
+        },
+        "NOTE": {
+            "background": "#8be9fd",
+            "foreground": "#000000",
+            "type": "text-and-comment"
+        },
+        "REF": {
+            "background": "#ccccff",
+            "foreground": "#000000",
+            "type": "text-and-comment",
+            "iconColour": "#ccccff"
+        },
+        "WARN": {
+            "background": "#f1fa86",
+            "foreground": "#000000",
+            "type": "text-and-comment",
+            "icon": "alert"
+        },
+        "DONE": {
+            "background": "#67ffd6",
+            "foreground": "#000000",
+            "type": "text-and-comment",
+            "iconColour": "#67ffd6"
+        },
+        "PROGS": {
+            "background": "#ffffff",
+            "foreground": "#000000",
+            "type": "text-and-comment",
+            "icon": "circle",
+            "iconColour": "#ffffff"
+        }
+    },
+    "todo-tree.highlights.useColourScheme": true,
+    "vim.leader": "<space>",
+    "vim.visualModeKeyBindings": [
+        {
+            "before": [
+                "<leader>",
+                "c"
+            ],
+            "after": [
+                "g",
+                "c",
+                "c"
+            ]
+        },
+        {
+            "before": [
+                ">"
+            ],
+            "after": [
+                ">",
+                "g",
+                "v"
+            ]
+        },
+        {
+            "before": [
+                "<"
+            ],
+            "after": [
+                "<",
+                "g",
+                "v"
+            ]
+        },
+        {
+            "before": [
+                "f",
+                "b"
+            ],
+            "commands": [
+                "editor.action.formatSelection"
+            ]
+        },
+    ],
+    "vim.insertModeKeyBindings": [],
+    "vim.normalModeKeyBindings": [
+        {
+            "before": [
+                "<leader>",
+                "c"
+            ],
+            "after": [
+                "g",
+                "c",
+                "c"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "d"
+            ],
+            "after": [
+                "d",
+                "d"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "b",
+                "n"
+            ],
+            "commands": [
+                "workbench.action.nextEditor"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "b",
+                "p"
+            ],
+            "commands": [
+                "workbench.action.previousEditor"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "w",
+                "l"
+            ],
+            "commands": [
+                "workbench.action.navigateRight"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "w",
+                "h"
+            ],
+            "commands": [
+                "workbench.action.navigateLeft"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "w",
+                "j"
+            ],
+            "commands": [
+                "workbench.action.navigateDown"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "w",
+                "k"
+            ],
+            "commands": [
+                "workbench.action.navigateUp"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "<leader>"
+            ],
+            "commands": [
+                "workbench.action.showCommands"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "w",
+                "c"
+            ],
+            "commands": [
+                "workbench.action.closeActiveEditor"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "f",
+                "f"
+            ],
+            "commands": [
+                "workbench.action.quickOpen"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "f",
+                "g"
+            ],
+            "commands": [
+                "actions.find"
+            ]
+        },
+    ],
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": [
+                "<leader>",
+                "d"
+            ],
+            "after": [
+                "d",
+                "d"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "w",
+                "v"
+            ],
+            "commands": [
+                "workbench.action.splitEditor"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "w",
+                "s"
+            ],
+            "commands": [
+                "workbench.action.splitEditorDown"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "t",
+                "n"
+            ],
+            "commands": [
+                "workbench.action.toggleSidebarVisibility"
+            ]
+        },
+    ],
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "workbench.list.smoothScrolling": true,
+    "editor.smoothScrolling": true,
+    "terminal.integrated.smoothScrolling": true,
+    "editor.cursorSmoothCaretAnimation": "on",
+    "workbench.colorTheme": "Catppuccin Mocha",
+    "editor.cursorBlinking": "expand",
+    "window.zoomLevel": 1,
+    "editor.fontSize": 18,
+    "editor.renderLineHighlight": "none",
+    "editor.scrollbar.horizontal": "hidden",
+    "editor.scrollbar.vertical": "hidden",
+    "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
+    "terminal.integrated.tabs.enabled": false,
+    "workbench.tree.enableStickyScroll": false,
+    "editor.stickyScroll.scrollWithEditor": false,
+    "workbench.tree.stickyScrollMaxItemCount": 1,
+    "terminal.integrated.stickyScroll.maxLineCount": 1,
+    "editor.stickyScroll.enabled": false,
+    "workbench.editor.showTabs": "single",
+    "window.menuBarVisibility": "hidden",
+    "editor.showFoldingControls": "never",
+    "workbench.layoutControl.enabled": false,
+    "workbench.startupEditor": "none",
+    "workbench.tips.enabled": false,
+    "editor.overviewRulerBorder": false,
+    "explorer.compactFolders": false,
+    "material-icon-theme.hidesExplorerArrows": true,
+    "workbench.iconTheme": "material-icon-theme",
+    "breadcrumbs.enabled": false,
+    "scm.diffDecorations": "none",
+    "explorer.confirmDragAndDrop": false,
+    "editor.guides.indentation": false,
+    "editor.parameterHints.enabled": false,
+    "workbench.editor.enablePreview": false,
+    "editor.rename.enablePreview": false,
+    "editor.wordWrap": "on",
+    "workbench.tree.renderIndentGuides": "none",
+    "terminal.integrated.profiles.windows": {
+        "PowerShell": {
+            "source": "PowerShell",
+            "icon": "terminal-powershell"
+        },
+        "Command Prompt": {
+            "path": [
+                "${env:windir}\\Sysnative\\cmd.exe",
+                "${env:windir}\\System32\\cmd.exe"
+            ],
+            "args": [],
+            "icon": "terminal-cmd"
+        },
+        "Git Bash": {
+            "source": "Git Bash"
+        },
+        "Arch (WSL)": {
+            "path": "C:\\WINDOWS\\System32\\wsl.exe",
+            "args": [
+                "-d",
+                "Arch"
+            ]
+        }
+    },
+    "terminal.integrated.defaultProfile.windows": "Arch (WSL)",
+}
