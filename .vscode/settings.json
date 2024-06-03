@@ -54,10 +54,10 @@
 
   "todo-tree.general.tags": [
     "BUG",
-    "HACK",
+    "RECHECK",
     "FIXME",
     "TODO",
-    "XXX",
+    "INCOMPLETE",
     "[ ]",
     "[x]",
     "REF",
@@ -66,7 +66,11 @@
     "ERROR",
     "NOTE",
     "DONE",
-    "PROGS"
+    "PROGS",
+    "COMMENT",
+    "LEARN",
+    "SEE NOTES",
+    "POST"
   ],
   "todo-tree.tree.autoRefresh": true,
   "todo-tree.highlights.customHighlight": {
@@ -76,23 +80,27 @@
       "background": "#F5A97F",
       "foreground": "#000000"
     },
-    "HACK": {
-      "icon": "tools",
+    "RECHECK": {
+      "icon": "codescan",
       "background": "#cc66ff",
       "foreground": "#000000",
       "type": "text-and-comment"
     },
     "FIXME": {
-      "icon": "beaker",
+      "icon": "tools",
       "type": "text-and-comment",
       "background": "#ff66ff",
       "foreground": "#000000"
     },
-    "XXX": {
-      "icon": "$(close)"
+    "INCOMPLETE": {
+      "icon": "alert",
+      "type": "text-and-comment",
+      "foreground": "white",
+      "background": "mediumvioletred",
+      "iconColour": "mediumvioletred"
     },
     "TODO": {
-      "icon": "check",
+      "icon": "checkbox",
       "iconColour": "#6666ff",
       "type": "text-and-comment",
       "getterIcon": true,
@@ -116,13 +124,15 @@
     "NOTE": {
       "background": "#8be9fd",
       "foreground": "#000000",
-      "type": "text-and-comment"
+      "type": "text-and-comment",
+      "icon": "note"
     },
     "REF": {
       "background": "#ccccff",
       "foreground": "#000000",
       "type": "text-and-comment",
-      "iconColour": "#ccccff"
+      "iconColour": "#ccccff",
+      "icon": "link"
     },
     "WARN": {
       "background": "#f1fa86",
@@ -134,7 +144,8 @@
       "background": "#67ffd6",
       "foreground": "#000000",
       "type": "text-and-comment",
-      "iconColour": "#67ffd6"
+      "iconColour": "#67ffd6",
+      "icon": "check"
     },
     "PROGS": {
       "background": "#ffffff",
@@ -142,6 +153,34 @@
       "type": "text-and-comment",
       "icon": "circle",
       "iconColour": "#ffffff"
+    },
+    "COMMENT": {
+      "icon": "comment",
+      "foreground": "white",
+      "background": "gray",
+      "iconColour": "white",
+      "type": "text-and-comment"
+    },
+    "LEARN": {
+      "icon": "bookmark",
+      "foreground": "white",
+      "background": "hotpink",
+      "iconColour": "hotpink",
+      "type": "text-and-comment"
+    },
+    "SEE NOTES": {
+      "icon": "note",
+      "foreground": "white",
+      "background": "teal",
+      "iconColour": "teal",
+      "type": "text-and-comment"
+    },
+    "POST": {
+      "icon": "share",
+      "foreground": "white",
+      "background": "green",
+      "iconColour": "green",
+      "type": "text-and-comment"
     }
   },
   "todo-tree.highlights.useColourScheme": true,
@@ -201,7 +240,7 @@
       "commands": ["workbench.action.showCommands"]
     },
     {
-      "before": ["<leader>", "w", "c"],
+      "before": ["<leader>", "x"],
       "commands": ["workbench.action.closeActiveEditor"]
     },
     {
