@@ -1,0 +1,69 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run the `open default settings` command
+// from the command palette or from `Zed` application menu.
+{
+  "vim_mode": true,
+  "relative_line_numbers": true,
+  "format_on_save": "on",
+  "ui_font_family": "Cascadia Code",
+  "ui_font_size": 17,
+  "buffer_font_family": "Cascadia Code",
+  "buffer_font_size": 17,
+  "buffer_font_weight": 400,
+  "cursor_blink": false,
+  "theme": {
+    "mode": "dark",
+    "dark": "Dracula",
+    "light": "One Light"
+  },
+  "project_panel": {
+    "default_width": 260,
+    "button": true,
+    "dock": "right",
+    "git_status": true
+  },
+  "remove_trailing_whitespace_on_save": false,
+  "ensure_final_newline_on_save": true,
+  "notification_panel": {
+    "default_width": 200,
+    "dock": "right"
+  },
+  "tabs": {
+    "show_icons": true,
+    "git_status": true,
+    "close_position": "right"
+  },
+  "scrollbar": {
+    "show": "never"
+  },
+  "experimental.theme_overrides": {
+    "background.appearance": "blurred",
+    "background": "#1e1e2e99",
+    "editor.background": "#00000090",
+    "editor.gutter.background": "#00000090",
+    "tab_bar.background": "#00000090",
+    "terminal.background": "#00000090",
+    "toolbar.background": "#00000090",
+    "tab.active_background": "#00000099",
+    // "tab.inactive_background": "#00000000",
+    "tab.inactive_background": "#34343440",
+    "status_bar.background": "#00000090",
+    "title_bar.background": "#00000090",
+    "panel.background": "#00000090",
+    "border.variant": "#00000000",
+    "scrollbar.track.border": "#00000000",
+    "editor.active_line.background": "#00000000"
+  },
+  "languages": {
+    "Python": {
+      "indent_guides": {
+        "enabled": true
+      }
+    }
+  }
+}
