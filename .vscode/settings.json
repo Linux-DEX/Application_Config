@@ -250,6 +250,14 @@
     {
       "before": ["<leader>", "f", "g"],
       "commands": ["actions.find"]
+    },
+    {
+      "before": ["<Tab>"],
+      "commands": ["workbench.action.nextEditor"]
+    },
+    {
+      "before": ["<S-Tab>"],
+      "commands": ["workbench.action.previousEditor"]
     }
     // {
     //   "before": ["<C-j>"],
@@ -257,6 +265,14 @@
     // },
   ],
   "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": ["<Tab>"],
+      "commands": ["workbench.action.nextEditor"]
+    },
+    {
+      "before": ["<S-Tab>"],
+      "commands": ["workbench.action.previousEditor"]
+    },
     {
       "before": ["<leader>", "d"],
       "after": ["d", "d"]
@@ -270,7 +286,7 @@
       "commands": ["workbench.action.splitEditorDown"]
     },
     {
-      "before": ["<leader>", "t", "n"],
+      "before": ["<leader>", "e"],
       "commands": ["workbench.action.toggleSidebarVisibility"]
     }
   ],
@@ -327,6 +343,5 @@
   "git.decorations.enabled": false,
   "window.menuBarVisibility": "hidden",
   "workbench.editor.showTabs": "single",
-  "workbench.startupEditor": "none",
+  "workbench.startupEditor": "none"
 }
-
