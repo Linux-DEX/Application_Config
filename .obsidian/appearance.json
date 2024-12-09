@@ -1,6 +1,8 @@
 {
-  "accentColor": "#623dc7",
-  "cssTheme": "Obsidianite",
-  "nativeMenus": true,
-  "baseFontSize": 18
+  "accentColor": "",
+  "cssTheme": "Catppuccin",
+  "textFontFamily": "JetBrainsMono Nerd Font",
+  "interfaceFontFamily": "JetBrainsMono Nerd Font",
+  "monospaceFontFamily": "JetBrainsMono Nerd Font",
+  "showViewHeader": false
 }

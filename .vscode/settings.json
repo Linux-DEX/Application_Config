@@ -1,10 +1,7 @@
 {
-  "code-runner.runInTerminal": true,
   "[python]": {
     "editor.formatOnType": true
   },
-  "files.autoSave": "afterDelay",
-  "liveServer.settings.donotShowInfoMsg": true,
   "emmet.includeLanguages": {
     "javascript": "javascriptreact"
   },
@@ -25,7 +22,7 @@
     "editor.wordBasedSuggestions": "off"
   },
   "editor.fontLigatures": true,
-  "workbench.iconTheme": "material-icon-theme",
+  "workbench.iconTheme": "catppuccin-mocha",
   "editor.wordWrap": "on",
   "workbench.sideBar.location": "right",
   "editor.fontFamily": "'Cascadia Code',Consolas, 'Courier New', monospace",
@@ -38,19 +35,11 @@
   "html.format.templating": true,
   "workbench.productIconTheme": "fluent-icons",
   "javascript.updateImportsOnFileMove.enabled": "always",
-  "tabnine.experimentalAutoImports": true,
   "editor.parameterHints.cycle": false,
   "editor.minimap.autohide": true,
-  "cmake.configureOnOpen": true,
   "terminal.integrated.fontSize": 18,
-  "liveServer.settings.CustomBrowser": "firefox",
-  "dart.previewFlutterUiGuides": true,
-  "dart.previewFlutterUiGuidesCustomTracking": true,
   "editor.lineNumbers": "relative",
-  "markdown.extension.print.theme": "dark",
-  "glassit.alpha": 245,
   "workbench.editor.enablePreview": false,
-  "cmake.showOptionsMovedNotification": false,
 
   "todo-tree.general.tags": [
     "BUG",
@@ -66,11 +55,7 @@
     "ERROR",
     "NOTE",
     "DONE",
-    "PROGS",
-    "COMMENT",
-    "LEARN",
-    "SEE NOTES",
-    "POST"
+    "PROGS"
   ],
   "todo-tree.tree.autoRefresh": true,
   "todo-tree.highlights.customHighlight": {
@@ -153,34 +138,6 @@
       "type": "text-and-comment",
       "icon": "circle",
       "iconColour": "#ffffff"
-    },
-    "COMMENT": {
-      "icon": "comment",
-      "foreground": "white",
-      "background": "gray",
-      "iconColour": "white",
-      "type": "text-and-comment"
-    },
-    "LEARN": {
-      "icon": "bookmark",
-      "foreground": "white",
-      "background": "hotpink",
-      "iconColour": "hotpink",
-      "type": "text-and-comment"
-    },
-    "SEE NOTES": {
-      "icon": "note",
-      "foreground": "white",
-      "background": "teal",
-      "iconColour": "teal",
-      "type": "text-and-comment"
-    },
-    "POST": {
-      "icon": "share",
-      "foreground": "white",
-      "background": "green",
-      "iconColour": "green",
-      "type": "text-and-comment"
     }
   },
   "todo-tree.highlights.useColourScheme": true,
@@ -294,23 +251,6 @@
   "[css]": {
     "editor.defaultFormatter": "vscode.css-language-features"
   },
-  "[java]": {
-    "editor.defaultFormatter": "redhat.java"
-  },
-  "indentRainbow.colors": [
-    "rgba(68, 30, 67,0.2)",
-    "rgba(58, 27, 71,0.2)",
-    "rgba(46, 26, 75,0.2)",
-    "rgba(41, 27, 74,0.2)",
-    "rgba(38, 28, 72,0.2)",
-    "rgba(26, 27, 60,0.2)",
-    "rgba(24, 35, 68,0.2)",
-    "rgba(21, 45, 74,0.2)",
-    "rgba(20, 49, 77,0.2)",
-    "rgba(17, 54, 80,0.2)",
-    "rgba(32, 57, 82,0.2)",
-    "rgba(44, 59, 83,0.2)"
-  ],
   "workbench.tree.stickyScrollMaxItemCount": 1,
   "editor.cursorSmoothCaretAnimation": "on",
   "workbench.list.smoothScrolling": true,
@@ -326,22 +266,46 @@
   "editor.scrollbar.vertical": "hidden",
   "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
   "terminal.integrated.tabs.enabled": false,
-  "material-icon-theme.hidesExplorerArrows": true,
   "editor.overviewRulerBorder": false,
   "workbench.colorCustomizations": {
-    "editorSuggestWidget.selectedBackground": "#231739",
-    "sideBar.background": "#191521",
+    // "editorSuggestWidget.selectedBackground": "#231739",
+    // "sideBar.background": "#191521",
+    // "list.activeSelectionBackground": "#231739",
+    // "list.inactiveSelectionBackground": "#231739",
+    // "list.focusBackground": "#231739",
+    // "list.hoverBackground": "#231739",
+    "editorSuggestWidget.selectedBackground": "#221836",
+    "sideBar.background": "#09080e",
     "list.activeSelectionBackground": "#231739",
     "list.inactiveSelectionBackground": "#231739",
     "list.focusBackground": "#231739",
     "list.hoverBackground": "#231739"
   },
-  "workbench.colorTheme": "Aura Dracula Spirit",
+  "workbench.colorTheme": "Catppuccin Mocha",
+  "catppuccin.accentColor": "lavender",
+  "catppuccin.colorOverrides": {
+    "mocha": {
+      "base": "#0E0D16",
+      "mantle": "#0E0D16",
+      "crust": "#0E0D16"
+    }
+  },
+  "catppuccin.customUIColors": {
+    "mocha": {
+      "statusBar.foreground": "accent"
+    }
+  },
+  "catppuccin.italicKeywords": true,
+  "catppuccin.italicComments": true,
+  "catppuccin.boldKeywords": true,
   "editor.parameterHints.enabled": false,
   "workbench.tree.renderIndentGuides": "none",
   "breadcrumbs.enabled": false,
   "git.decorations.enabled": false,
   "window.menuBarVisibility": "hidden",
   "workbench.editor.showTabs": "single",
-  "workbench.startupEditor": "none"
+  "workbench.startupEditor": "none",
+  "files.autoSave": "afterDelay",
+  "editor.scrollbar.verticalScrollbarSize": 0,
+  "editor.scrollbar.horizontalScrollbarSize": 0
 }

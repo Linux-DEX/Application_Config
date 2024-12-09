@@ -1,13 +1,15 @@
 [
-  "obsidian-projects",
-  "obsidian-kindle-plugin",
-  "obsidian-tasks-plugin",
-  "table-editor-obsidian",
-  "quickadd",
-  "obsidian-kanban",
-  "cmdr",
-  "better-word-count",
   "obsidian-excalidraw-plugin",
+  "table-editor-obsidian",
+  "better-word-count",
   "calendar",
-  "obsidian-plugin-toc"
+  "cmdr",
+  "dataview",
+  "obsidian-kanban",
+  "obsidian-kindle-plugin",
+  "obsidian-projects",
+  "quickadd",
+  "obsidian-plugin-toc",
+  "obsidian-tasks-plugin",
+  "obsidian-relative-line-numbers"
 ]

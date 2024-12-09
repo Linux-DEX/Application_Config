@@ -1,13 +1,4 @@
 {
-  "editor:toggle-source": [
-    {
-      "modifiers": [
-        "Mod",
-        "Shift"
-      ],
-      "key": "M"
-    }
-  ],
   "app:toggle-left-sidebar": [
     {
       "modifiers": [
@@ -20,6 +11,15 @@
     {
       "modifiers": [
         "Alt"
+      ],
+      "key": "M"
+    }
+  ],
+  "editor:toggle-source": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
       ],
       "key": "M"
     }

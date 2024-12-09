@@ -78,5 +78,13 @@
     "key": "ctrl+l",
     "when": "editorFocus",
     "command": "workbench.action.focusSideBar"
+  },
+  {
+    "key": "ctrl+shift+k",
+    "command": "find-it-faster.findWithinFiles"
+  },
+  {
+    "key": "ctrl+shift+u",
+    "command": "-find-it-faster.findWithinFiles"
   }
 ]

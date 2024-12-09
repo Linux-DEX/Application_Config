@@ -1,62 +1,51 @@
 {
   "main": {
-    "id": "ae1344b32a2fc8ce",
+    "id": "0643107be0d92ae6",
     "type": "split",
     "children": [
       {
-        "id": "128fef381513be5c",
+        "id": "b99fcea8f8dcbd75",
         "type": "tabs",
         "children": [
           {
-            "id": "1bfa662c87bdadbd",
+            "id": "e45b41678d2d518b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "kanban",
               "state": {
-                "file": "Git & GitHub/git command.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2e5d97354729ec9d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Methodology.md",
-                "mode": "source",
-                "source": false
-              }
+                "file": "Web Project Plan/React-learning projects.md"
+              },
+              "icon": "lucide-trello",
+              "title": "React-learning projects"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "47dbcffad7123459",
+    "id": "9cd8dfab2fe7d377",
     "type": "split",
     "children": [
       {
-        "id": "2b27e0be7a9edf21",
+        "id": "d0e0b17ca235509d",
         "type": "tabs",
         "children": [
           {
-            "id": "71c852dd876025a6",
+            "id": "02fae790b1bc7125",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           },
           {
-            "id": "c88ee7cf284a984b",
+            "id": "f5b6ceea01c5b66f",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -67,38 +56,42 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           },
           {
-            "id": "258c464ab166f246",
+            "id": "398519159ab8e501",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 249.5013427734375
+    "width": 278.0026054382324
   },
   "right": {
-    "id": "dafdf09b82be8dd8",
+    "id": "d59dbc5cb9abfe28",
     "type": "split",
     "children": [
       {
-        "id": "42ce4d5e5d261785",
+        "id": "1dfaee7d1a0e96b6",
         "type": "tabs",
         "children": [
           {
-            "id": "a0458c25821245ed",
+            "id": "53da041d225a1bae",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Methodology.md",
+                "file": "Excalidraw/Test Draw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,48 +99,68 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Test Draw"
             }
           },
           {
-            "id": "3d83090e584c4071",
+            "id": "3a7c57c3e78b5d76",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Methodology.md",
+                "file": "Excalidraw/Test Draw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Test Draw"
             }
           },
           {
-            "id": "22b9bbc02638a8ef",
+            "id": "3aa959f3671e470b",
             "type": "leaf",
             "state": {
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
-            "id": "a5467414d41db0f0",
+            "id": "926063b587b1831a",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Methodology.md"
-              }
+                "file": "Python/PIP.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of PIP"
             }
           },
           {
-            "id": "cbf8de3bc3ad91a3",
+            "id": "37c1a6ea94cdf011",
             "type": "leaf",
             "state": {
               "type": "calendar",
-              "state": {}
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          },
+          {
+            "id": "2cd4e1e644cc792a",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {},
+              "icon": "spreadsheet",
+              "title": "Advanced Tables"
             }
           }
         ],
@@ -155,48 +168,47 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 303
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian-projects:Open projects": false,
-      "obsidian-kindle-plugin:Sync your Kindle highlights": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-kindle-plugin:Sync your Kindle highlights": false,
+      "obsidian-projects:Open projects": false
     }
   },
-  "active": "2e5d97354729ec9d",
+  "active": "02fae790b1bc7125",
   "lastOpenFiles": [
-    "Git & GitHub/git command.md",
-    "Methodology.md",
-    "Methodology.md",
-    "Markdown README.md",
-    "Shell Script/Script Notes.md",
-    "Untitled 1.md",
-    "github-readme/img/Arch-desktop.jpg",
-    "github-readme/img/banner.gif",
-    "Excalidraw/Drawing 2024-03-29 11.27.55.excalidraw.md",
-    "github-readme/README.md",
-    "college/IOT answer.md",
-    "college/IA 2 Test.md",
-    "college",
-    "college",
-    "Excalidraw",
-    "github-readme/Readme-profile.md",
-    "github-readme/img",
-    "github-readme",
-    "Git & GitHub",
-    "Shell Script/img/crontab.png",
-    "Shell Script/img",
-    "Shell Script",
-    "CompTIA Network+/quesiton ka answer.md",
-    "CompTIA Network+"
+    "Python/PIP.md",
+    "Web Project Plan/React-learning projects.md",
+    "Web Project Plan",
+    "ShellScript/Script Notes.md",
+    "Linux/BlackArch.md",
+    "Linux/Aircrack-ng.md",
+    "Excalidraw/Test Draw.md",
+    "JavaScript/Strict_Mode.md",
+    "JavaScript/Home.md",
+    "JavaScript/Control_Flow.md",
+    "JavaScript/Operator.md",
+    "JavaScript/Type_Conversion.md",
+    "JavaScript/Data_type.md",
+    "JavaScript/String_Method.md",
+    "JavaScript/Math_Object.md",
+    "JavaScript/Let_and_Var.md",
+    "JavaScript/Variable.md",
+    "Variable.md",
+    "JavaScript/Comments.md",
+    "JavaScript/Console_Method.md",
+    "Untitled.md",
+    "JavaScript/ConsoleMethod.md",
+    "Console.md",
+    "Welcome.md"
   ]
 }
